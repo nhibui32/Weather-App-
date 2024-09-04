@@ -8,16 +8,11 @@
 </head>
 <body>
     <div class="container">
-        <h1>Weather app</h1>
-        <input type="text" placeholder="Enter city name">
-        <button>Get Weather</button>
-        <div class="weather-infor">
-            <h3 id="city-name">City Name</h3>
-            <p id="date">Date</p>
-            <img id="weather-icon" src="" alt="Weather Icon">
-            <p id="temperature">temperature</p>
-            <p id="description">Description</p>
-            <p id="wind-speed">Wind speed</p>
+        <h1>Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <!-- <button id="searchButton" >Search</button> -->
+        <img id="searchButton" src="/img/search.png" alt="Search" onclick="getWeather()" height="40px" width="40px">
+        <div class="weather-info">
         </div>
     </div>
     <script src="JS/app.js"></script>
